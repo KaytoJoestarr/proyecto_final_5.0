@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto_final"
+        tools:targetApi="31">
+        <activity
+            android:name=".CrearPerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RuletaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MascotasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TareasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntercambiarTareaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearTareaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleTareaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearCuentaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MihogarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InicioSesionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
